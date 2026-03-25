@@ -159,3 +159,9 @@
 - É necessário fazer protótipos.
 - A avaliação de riscos e custos é fundamental.
 - Projetos de longo prazo com incerteza.
+
+## Referências
+
+- PRESSMAN, Roger S.; LOWE, David Brian. Engenharia web. Rio de Janeiro: LTC, 2009;
+- SOMMERVILLE, Ian. Engenharia de software. 10. ed. São Paulo: Pearson Education do Brasil, 2019. E-book (Biblioteca Virtual Pearson).
+
