@@ -155,7 +155,7 @@
 - Também conhecido como XP, é uma metodologia ágil para desenvolvimento de softwares, focando na agilidade das equipes e a qualidade dos projetos.
 - Fácil aplicação para desenvolvedores experientes ou iniciantes e em todo tipo de equipe, pois se adapta bem a mudanças que acontecem durante a construção de produtos.
 
-## Princípios
+## Valores
 
 ### Simplicidade
 
@@ -174,13 +174,9 @@
 
 ### Coragem
 
-- Testes, integração contínua, programação em pares e outras práticas de XP aumentam a confiança do programador e ajudam-no a ter coragem para melhorar o código que está funcionando para torná-lo mais simples.
-- Investir tempo no desenvolvimento de testes.
-- Mexer no design em estágio avançado.
-- Pedir ajuda aos que sabem mais.
-- Abandonar processos formais e ter o projeto e a documentação em forma de código.
+- Incentiva os membros da equipe a assumirem riscos, expressarem suas preocupações e se adaptarem às mudanças com confiança.
 
-## Como Funciona o Extreme Programming
+## Princípios
 
 ### Presença do cliente
 
@@ -210,6 +206,19 @@
 - É preciso estabelecer diretrizes para nortear o trabalho de todos e promover unidade.
 - E já que tudo é feito em partes, isso evita inconsistências no produto que podem gerar problemas futuros na revisão do código.
 - É importante haver coletividade e sincronia entre todas as pessoas que constroem o sistema.
+
+### Programação 
+
+- Também inclui a criação de projetos ou diagramas simples que orientam o desenvolvimento, a construção de scripts para o sistema e a seleção da solução mais adequada dentre as opções disponíveis.
+
+### Programação em pares 
+
+- Incentiva a programação em pares, onde dois desenvolvedores trabalham juntos na mesma estação de trabalho.
+- Facilita o compartilhamento de conhecimento, reduz erros e melhora a qualidade do código.
+
+### Refatoração
+
+- Melhora a estrutura do código sem alterar a funcionalidade, tornando-o mais limpo e fácil de manter.
 
 ## Qual a diferença entre Scrum e XP?
 
