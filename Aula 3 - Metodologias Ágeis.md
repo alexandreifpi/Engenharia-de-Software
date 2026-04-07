@@ -170,16 +170,15 @@
 ### Feedback
 
 - Feedback sobre qualidade do código (testes de unidade, programação em pares, posse coletiva).
-– Feedback sobre estado do desenvolvimento (estórias do usuário-final, integração contínua, jogo do planejamento).
+- Feedback sobre estado do desenvolvimento (estórias do usuário-final, integração contínua, jogo do planejamento).
 
 ### Coragem
 
-- Testes, integração contínua, programação em pares e outras práticas de XP aumentam a confiança do programador e ajudam-no a ter coragem para melhorar o código que está funcionando para torná-lo
-mais simples.
-– Investir tempo no desenvolvimento de testes.
-– Mexer no design em estágio avançado.
-– Pedir ajuda aos que sabem mais.
-– Abandonar processos formais e ter o projeto e a documentação em forma de código.
+- Testes, integração contínua, programação em pares e outras práticas de XP aumentam a confiança do programador e ajudam-no a ter coragem para melhorar o código que está funcionando para torná-lo mais simples.
+- Investir tempo no desenvolvimento de testes.
+- Mexer no design em estágio avançado.
+- Pedir ajuda aos que sabem mais.
+- Abandonar processos formais e ter o projeto e a documentação em forma de código.
 
 ## Como Funciona o Extreme Programming
 
