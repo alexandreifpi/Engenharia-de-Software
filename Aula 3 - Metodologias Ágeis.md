@@ -150,7 +150,77 @@
 - O Sprint Backlog não pode sofrer alterações.
 - Importante que o Team conclua o primeiro item, antes de começar o segundo.
 
+# Extreme Programming
+
+- Também conhecido como XP, é uma metodologia ágil para desenvolvimento de softwares, focando na agilidade das equipes e a qualidade dos projetos.
+- Fácil aplicação para desenvolvedores experientes ou iniciantes e em todo tipo de equipe, pois se adapta bem a mudanças que acontecem durante a construção de produtos.
+
+## Princípios
+
+### Simplicidade
+
+- Preza pela simplicidade, incentiva que reduzam a complexidade do sistema.
+- A solução adotada deve ser sempre a mais simples que alcance os objetivos esperados.
+
+### Comunicação
+
+- Assim como nas demais metodologias ágeis, a comunicação é fundamental no XP.
+- O foco é otimizar o entendimento das pessoas envolvidas com o mínimo de formalidade, maximizando a interação entre todos e promovendo um gerenciamento mais eficiente.
+
+### Feedback
+
+- Feedback sobre qualidade do código (testes de unidade, programação em pares, posse coletiva).
+– Feedback sobre estado do desenvolvimento (estórias do usuário-final, integração contínua, jogo do planejamento).
+
+### Coragem
+
+- Testes, integração contínua, programação em pares e outras práticas de XP aumentam a confiança do programador e ajudam-no a ter coragem para melhorar o código que está funcionando para torná-lo
+mais simples.
+– Investir tempo no desenvolvimento de testes.
+– Mexer no design em estágio avançado.
+– Pedir ajuda aos que sabem mais.
+– Abandonar processos formais e ter o projeto e a documentação em forma de código.
+
+## Como Funciona o Extreme Programming
+
+### Presença do cliente
+
+- É necessário incluir o cliente de forma ativa e colaborativa.
+- Construir com iterações curtas é ideal para que seja possível resolver dúvidas e responder a mudanças de cenários durante a construção da solução.
+
+### Metáfora
+
+- Modo de transmitir a realidade do cliente fazendo analogias entre o sistema em desenvolvimento e as expectativas criadas.
+- Facilitar a arquitetura do sistema, fornecendo uma linguagem compreensível entre cliente e desenvolvedores.
+
+### Planejamento eficiente
+
+- É necessário ter um bom mapeamento das interações do XP, que são os períodos de uma ou duas semanas em que um conjunto de soluções é desenvolvido.
+- A cada início de interação, é preciso priorizar de forma colaborativa o que deve ser feito.
+- As interações são elaboradas a partir de histórias, que são casos simplificados de uso.
+- Se elas forem grandes demais, é necessário dividi-las em tarefas de curta duração e pensá-las de acordo com o que agrega mais valor ao cliente, considerando este como parte importante do processo.
+
+### Testes constantes
+
+- Para garantir a programação com o eXtreme Programming, é preciso testar antes para também garantir qualidade.
+- Existem dois tipos de testes: o teste de unidade e o teste funcional.
+- O primeiro é um conjunto de testes feitos para verificação de erros; já o segundo é para assegurar junto ao cliente se o sistema de um modo geral atende ao que foi proposto.
+
+### Padronização do código
+
+- É preciso estabelecer diretrizes para nortear o trabalho de todos e promover unidade.
+- E já que tudo é feito em partes, isso evita inconsistências no produto que podem gerar problemas futuros na revisão do código.
+- É importante haver coletividade e sincronia entre todas as pessoas que constroem o sistema.
+
+## Qual a diferença entre Scrum e XP?
+
+- Ambas são metodologias ágeis e possuem suas semelhanças. Podemos destacar o gerenciamento e controle de atividades, melhoria da comunicação e cooperação entre equipes, e visão clara de problemas e soluções.
+- No entanto, o Scrum é uma maneira de gerir projetos que não depende de uma área de conhecimento.
+- Já o XP é foca no desenvolvimento de sistemas de softwares.
+- É possível utilizar unir os métodos: o Scrum, para fazer a gestão da criação do software; e o eXtreme Programming, para os inúmeros desdobramentos específicos da área de desenvolvimento, como os testes automatizados ou a refatoração de código, revisão de código, etc.
+
 ## Referências
 
 - PRESSMAN, Roger S.; LOWE, David Brian. Engenharia web. Rio de Janeiro: LTC, 2009;
 - SOMMERVILLE, Ian. Engenharia de software. 10. ed. São Paulo: Pearson Education do Brasil, 2019. E-book (Biblioteca Virtual Pearson).
+- K21. Introdução ao eXtreme Programming. 2021. Disponível em: https://br.k21.global/gestao-de-times-ageis/introducao-ao-extreme-programming. Acesso em: 2 abr. 2026.
