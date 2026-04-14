@@ -4,7 +4,7 @@
 
 - Foco na qualidade do processo, já que se trata de uma fase importante.
 
-## Papel do Analista de Requisitos**
+## Papel do Analista de Requisitos
 - Realiza o levantamento de requisitos e especificação de projetos de TI, desenvolvendo soluções para processos,
 mapeamento e análise de negócio. Elabora a documentação técnica de especificação de requisitos de softwares e status report para gestão de projetos.
 
