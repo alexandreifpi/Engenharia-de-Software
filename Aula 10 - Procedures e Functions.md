@@ -93,3 +93,18 @@ CALL calcular_quantidade_pacientes(@quantidade);
 SELECT @quantidade;
 ```
 
+### Procedure com condicionais
+
+```bash
+DELIMITER //
+CREATE PROCEDURE procedure_condicional()
+BEGIN
+	IF condicao THEN
+		SELECT 'Condição satisfeita';
+	ELSE
+		SELECT 'Condição insatisfeita';
+	END IF
+END;//
+DELIMITER ;
+```
+
