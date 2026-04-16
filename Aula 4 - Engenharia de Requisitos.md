@@ -70,6 +70,8 @@ mapeamento e análise de negócio. Elabora a documentação técnica de especifi
 
 - Os requisitos funcionais podem ser escritos em diversos níveis de detalhamento (Comparar requisito 1 e 3).
 
+---
+
 - **Exemplo**:
   
   - O sistema deve calcular o saldo do usuaŕio somando os valores das entradas e subtraindo os valores das saídas.   
@@ -95,11 +97,15 @@ mapeamento e análise de negócio. Elabora a documentação técnica de especifi
 
 - Se um trabalho envolve mais de um indivíduo, é porque há mais de uma tarefa presente.
 
+---
+
 - **Exemplos**
 
   - Efetuar baixa do título na relação de contas a receber.
   - Emitir carta de renovação de contrato.
   - Emitir certificado de participação do aluno no curso.
+
+---
 
 #### Requisitos funcionais com objetivo de agregador
 
@@ -107,11 +113,15 @@ mapeamento e análise de negócio. Elabora a documentação técnica de especifi
 
 - Quanto maior o nível, mais geraissão seus objetivos.
 
+--- 
+
 - **Exemplos**
 
   - Controlar fluxo de caixa.
   - Gerir relacionamento com clientes.
   - Efetuar gestão dos cursos.
+
+---
 
 ### Requisitos Não Funcionais
 
@@ -153,7 +163,7 @@ mapeamento e análise de negócio. Elabora a documentação técnica de especifi
 
 - **Exemplos:**
   
-- Se um sistema de aeronaves não cumprir seus requisitos de confiabilidade, não será certificado como um sistema seguro para operar;
+- Se um sistema de controle de sensores de aeronaves não cumprir seus requisitos de confiabilidade, não será certificado como um sistema seguro para operar;
   
 - Se um sistema de controle embutido não atender aos requisitos de desempenho, as funções de controle não funcionarão corretamente.
 
@@ -166,6 +176,19 @@ mapeamento e análise de negócio. Elabora a documentação técnica de especifi
 - Podem restringir requisitos funcionais existentes ou estabelecer como cálculos específicos devem ser realizados, refletindo fundamentos do domínio de aplicação.
 
 - **Exemplo:** O saldo não pode ficar negativo.
+
+## Atividades sobre Requisitos
+
+1. Qual definição de requisitos?
+   
+2. Qual a diferença entre requisitos funcionais e não funcionais?
+   
+3. Imagine que você está participando do levantamento de requisitos da construção de
+um aplicativo para controle bibliotecário.
+- Para tal:
+  - Defina pelo menos 10 requisitos funcionais.
+  - Defina pelo menos 3 requisitos não funcionais.
+  - Defina pelo menos 2 requisitos negociais.
 
 ## **Especificação de Requisitos**
 - Contrato entre clientes e equipe de desenvolvimento.
