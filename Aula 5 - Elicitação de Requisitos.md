@@ -105,3 +105,10 @@
 
 - **Desejável**
 - A consulta ao extrato bancário deve usar cores vermelhas para saldos negativos
+
+### Verificação de Requisitos
+
+- Os requisitos são verificados quanto sua completude e consistência.
+- Verifica se estão em conformidade com os stakeholders.
+
+# Técnicas de Elicitação de Requisitos
