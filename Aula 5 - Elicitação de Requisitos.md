@@ -112,3 +112,64 @@
 - Verifica se estão em conformidade com os stakeholders.
 
 # Técnicas de Elicitação de Requisitos
+
+## Análise de Documentos
+
+- Surgiu da dificuldade de acesso às partes interessadas é comum.
+- Muitos profissionais consideram a análise de documentos tediosa e pouco útil.
+- Porém, isso ocorre por má utilização da técnica, não pela técnica em si.
+- Documentos ajudam a formular perguntas melhores, não apenas obter respostas.
+
+### O que é?
+
+- Técnica de elicitação de requisitos baseada no estudo de documentos existentes.
+- Ajuda a identificar necessidades do negócio e partes interessadas.
+
+### Tipos de Documentos
+
+- Planos de negócio
+- Documentos de marketing
+- Contratos e RFPs
+- Fluxos de processos
+- Modelos de dados
+- Regras de negócio
+- Manuais e relatórios
+- Casos de uso e requisitos
+- Políticas, normas e leis
+
+### Como Realizar?
+
+**1. Preparação**
+
+- Definir as informações que deseja coletar:
+  - Entender o domínio
+  - Definir escopo
+  - Detalhar funcionalidades
+  - Elaborar perguntas-chave
+  - Identificar e selecionar documentos relevantes
+
+**2. Execução**
+
+- Analisar documentos para responder às perguntas.
+- Registrar respostas encontradas e dúvidas surgidas.
+
+**3. Finalização**
+
+- Validar com especialistas
+- Referênciar documentos usados
+- Organizar documentos em repositório
+
+### Vantagens
+
+- Não começa do zero (reaproveita informações)
+- Ajuda a entender o domínio e planejar outras técnicas (ex: entrevistas)
+- Útil quando não há especialistas disponíveis
+- Informação tende a ser mais objetiva
+
+### Desvantagens
+
+- Pode não existir documentação (processos novos).
+- Documentos podem estar desatualizados ou incompletos.
+- Processo costuma ser demorado.
+- Pouco eficiente para demandas específicas.
+
