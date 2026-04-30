@@ -234,3 +234,14 @@
 - Mais demorada e custosa que outras técnicas.
 - Pode não capturar eventos raros ou exceções.
 - Pode gerar desconforto nos observados e alteração no comportamento natural.
+
+## Entrevista
+
+- Técnica amplamente utilizada para levantamento de requisitos.
+- Baseada em diálogo entre entrevistador e entrevistado.
+- Exige preparação e habilidades de comunicação.
+- Problemas comuns: Falta de experiência, Falta de preparo e Foco excessivo em anotações.
+
+### O que é?
+
+- 
