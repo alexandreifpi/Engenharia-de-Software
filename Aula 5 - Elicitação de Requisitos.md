@@ -173,3 +173,64 @@
 - Processo costuma ser demorado.
 - Pouco eficiente para demandas específicas.
 
+## Observação
+
+- Nem todos os stakeholders conseguem explicar bem seu trabalho.
+- A observação surge como alternativa: ver o trabalho acontecendo em vez de apenas perguntar.
+
+### O que é?
+
+- Técnica originada da antropologia.
+- Consiste em acompanhar o ambiente real de trabalho.
+- Entender interações entre pessoas, sistemas e processos.
+- O analista observa atividades reais, registra tarefas, comportamentos e contexto.
+- Analista atua como iniciante e aprende fazendo.
+
+### Como Realizar?
+
+**1. Preparação**
+
+- Definir objetivos:
+  - Escopo: quais tarefas existem.
+  - Profundidade: como as tarefas são executadas.
+  
+- Identificar:
+  - Pessoas a observar (especialistas e novatos)
+  - Atividades relevantes
+  - Momentos adequados (eventos comuns e raros)
+    
+- Definir postura:
+  - Passiva (invisível) → não interfere
+  - Ativa (visível) → faz perguntas durante a observação
+  - Sempre que possível, observar mais de uma vez
+
+**2. Execução**
+
+- Apresentar-se e explicar o objetivo.
+- Garantir que não há julgamento do trabalho
+- Observar e registrar Passos realizados, Dificuldades, Comportamentos.
+- Pode pedir para o usuário “pensar alto”.
+- Fazer perguntas (se abordagem ativa).
+
+**3. Finalização**
+
+- Organizar respostas e descobertas.
+- Criar memória de levantamento.
+- Validar com os participantes.
+- Comparar observações de diferentes pessoas.
+- Identificar padrões e divergências.
+
+### Vantagens
+
+- Visão realista do trabalho
+- Identifica processos informais, requisitos implícitos
+- Útil quando usuários não sabem explicar bem, não há tempo para entrevistas.
+- Excelente para requisitos de usabilidade.
+- Demonstra envolvimento com o cliente.
+
+### Desvantagens
+
+- Só funciona bem com processos existentes.
+- Mais demorada e custosa que outras técnicas.
+- Pode não capturar eventos raros ou exceções.
+- Pode gerar desconforto nos observados e alteração no comportamento natural.
