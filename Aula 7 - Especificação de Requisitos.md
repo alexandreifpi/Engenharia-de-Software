@@ -5,6 +5,7 @@
 ## Especificação de Requisitos
 
 - Documenta os diferentes tipos de requisitos.
+- O formato da documentação resultante da especificação de requisitos depende da organização, das necessidades do projeto e do ciclo de vida utilizado.
 - Enunciado completo, claro e preciso dos requisitos de um produto de software.
 
 ---
