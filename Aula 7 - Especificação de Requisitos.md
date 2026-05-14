@@ -178,25 +178,53 @@
 
 ---
 
-# Fluxo de Requisitos
+# Análise de Requisitos
 
 ---
 
-## Determinação do Contexto
+## Análise de Requisitos
 
-- Levantamento dos aspectos dos processos de negócio ou de um sistema maior.
-- Relevantes para a determinação dos requisitos do produto.
+- Identificação dos atores;
+- Identificação dos casos de uso;
+- Identificação dos relacionamentos entre atores e casos de uso;
+- Confecção do diagrama de contexto.
+- Criação dos cenários de casos de uso.
 
----
+## Casos de Uso
 
-## Definição do Escopo
+- Representam funções completas do produto;
+- É uma técnica de modelagem de requisitos;
+- Descreve o que um sistema faz;
+- Um caso de uso é um "documento narrativo que descreve a sequência de eventos de um ator que usa um sistema para completar um processo" (Ivan Jacobson).
 
-- Delimitação dos problemas que o produto se propõe resolver.
+## Casos de Uso
 
----
+- Descrevem como os usuários interagem com o sistema (as funcionalidades do sistema);
+- Dão uma visão externa do sistema;
+- O conjunto de casos de uso deve ser capaz de comunicar a funcionalidade e o comportamento do sistema para o cliente;
+- Descrevem o que o sistema faz, mas NÃO especificam como isso deve ser feito.
 
-## Definição dos Requisitos
+## Atores
 
-- Produção de lista dos requisitos funcionais e não funcionais.
-- Descritos de forma sucinta.
-- Sem entrar em detalhes.
+- Modelam papéis dos usuários do produto;
+- Modelam papéis e não pessoas: um ator pode modelar vários usuários físicos;
+- Podem também modelar outros sistemas.
+
+## Atores: Caracterização
+
+- Descrição sucinta das responsabilidades do respectivo papel;
+- Características mais importantes do respectivo grupo de usuários:
+-- cargo ou função;
+-- frequência de uso;
+-- nível de instrução;
+-- proficiência no processo de negócio;
+-- proficiência em informática.
+
+## Diagrama de Casos de Uso
+
+
+
+# Referências
+
+- https://moodle.unesp.br/pluginfile.php/25934/mod_resource/content/1/diagrama_casos_uso.pdf
+
