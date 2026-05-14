@@ -178,6 +178,65 @@
 
 ---
 
+## Estrutura Básica de uma ERSw
+
+- Introdução;
+- Descrição geral do produto;
+- Requisitos específicos;
+- Informação de suporte.
+
+## Introdução
+
+- Objetivo do documento
+- Escopo do sistema
+- Definições, acrônimos e abreviações
+- Referências
+- Visão geral do documento
+- Histórico de versões
+
+## Descrição Geral do Produto
+
+- Perspectiva do produto
+- Características dos usuários
+- Ambiente operacional
+- Restrições
+
+## Requisitos Funcionais
+
+- Casos de uso
+- Fluxos (principal e alternativos)
+- Entradas e saídas
+- Regras de negócio
+
+## Requisitos Não Funcionais
+
+- Desempenho
+- Segurança
+- Usabilidade
+- Disponibilidade
+- Escalabilidade
+- Manutenibilidade
+
+## Interfaces
+
+- Interface com usuário
+- Interfaces externas
+- Interfaces de hardware
+- Interfaces de software
+
+## Modelos e Diagramas
+
+- Diagrama de casos de uso
+- Diagrama de classes
+- Diagrama de sequência
+- Modelo de dados
+
+## Apêndices
+
+- Glossário
+- Dicionário de dados
+- Protótipos / wireframes
+
 # Análise de Requisitos
 
 ---
@@ -223,7 +282,6 @@
 ## Diagrama de Casos de Uso
 
 <img width="521" height="343" alt="Captura de tela de 2026-05-14 16-06-16" src="aula-7-imagens/img-1.png" />
-
 
 # Referências
 
