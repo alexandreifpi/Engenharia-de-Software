@@ -79,13 +79,13 @@
 
 ## Características da Especificação (Qualidade)
 
-- Correta;
-- Precisa;
-- Completa;
-- Consistente;
-- Priorizada;
+- **Correta**;
+- **Precisa**;
+- **Completa**;
+- **Consistente**;
+- **Priorizada**;
 - Verificável;
-- Modificável;
+- **Modificável**;
 - Rastreável.
 
 ---
