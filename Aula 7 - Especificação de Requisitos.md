@@ -185,6 +185,8 @@
 - Requisitos específicos;
 - Informação de suporte.
 
+---
+
 ## Introdução
 
 - Objetivo do documento
@@ -194,6 +196,8 @@
 - Visão geral do documento
 - Histórico de versões
 
+---
+
 ## Descrição Geral do Produto
 
 - Perspectiva do produto
@@ -201,12 +205,16 @@
 - Ambiente operacional
 - Restrições
 
+---
+
 ## Requisitos Funcionais
 
 - Casos de uso
 - Fluxos (principal e alternativos)
 - Entradas e saídas
 - Regras de negócio
+
+---
 
 ## Requisitos Não Funcionais
 
@@ -217,12 +225,16 @@
 - Escalabilidade
 - Manutenibilidade
 
+---
+
 ## Interfaces
 
 - Interface com usuário
 - Interfaces externas
 - Interfaces de hardware
 - Interfaces de software
+
+---
 
 ## Modelos e Diagramas
 
@@ -231,11 +243,15 @@
 - Diagrama de sequência
 - Modelo de dados
 
+---
+
 ## Apêndices
 
 - Glossário
 - Dicionário de dados
 - Protótipos / wireframes
+
+---
 
 # Análise de Requisitos
 
@@ -249,12 +265,16 @@
 - Confecção do diagrama de contexto.
 - Descrição dos cenários de casos de uso.
 
+---
+
 ## Casos de Uso
 
 - Representam funções completas do produto;
 - É uma técnica de modelagem de requisitos;
 - Descreve o que um sistema faz;
 - Um caso de uso é um "documento narrativo que descreve a sequência de eventos de um ator que usa um sistema para completar um processo" (Ivan Jacobson).
+
+---
 
 ## Casos de Uso
 
@@ -263,11 +283,15 @@
 - O conjunto de casos de uso deve ser capaz de comunicar a funcionalidade e o comportamento do sistema para o cliente;
 - Descrevem o que o sistema faz, mas NÃO especificam como isso deve ser feito.
 
+---
+
 ## Atores
 
 - Modelam papéis dos usuários do produto;
 - Modelam papéis e não pessoas: um ator pode modelar vários usuários físicos;
 - Podem também modelar outros sistemas.
+
+---
 
 ## Atores: Caracterização
 
@@ -279,9 +303,13 @@
 -- proficiência no processo de negócio;
 -- proficiência em informática.
 
+---
+
 ## Diagrama de Casos de Uso
 
 <img width="521" height="343" alt="Captura de tela de 2026-05-14 16-06-16" src="aula-7-imagens/img-1.png" />
+
+---
 
 # Referências
 
