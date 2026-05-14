@@ -222,6 +222,7 @@
 
 ## Diagrama de Casos de Uso
 
+<img width="521" height="343" alt="Captura de tela de 2026-05-14 16-06-16" src="aula-7-imagens/img-1.png" />
 
 
 # Referências
