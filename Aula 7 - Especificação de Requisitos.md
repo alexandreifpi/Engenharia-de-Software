@@ -262,7 +262,7 @@
 - Identificação dos atores;
 - Identificação dos casos de uso;
 - Identificação dos relacionamentos entre atores e casos de uso;
-- Confecção do diagrama de contexto.
+- Confecção do diagrama de casos de uso.
 - Descrição dos cenários de casos de uso.
 
 ---
