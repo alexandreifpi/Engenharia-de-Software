@@ -311,6 +311,53 @@
 
 ---
 
+## Descrição de Casos de Uso
+
+### Nome do Caso de Uso
+
+- Realizar Login.
+
+### Escopo
+
+- Sistema Web Acadêmico.
+
+### Descrição do Propósito
+
+- Este caso de uso tem como objetivo permitir que um usuário acesse o sistema por meio da autenticação utilizando login e senha válidos.
+
+### Atores
+
+- Os atores envolvidos neste caso de uso são o Usuário, responsável por informar as credenciais de acesso, e o Sistema de Autenticação, responsável por validar as informações fornecidas.
+
+### Pré-condições
+
+- Para que este caso de uso possa ser executado, o usuário deve estar previamente cadastrado no sistema, possuir login e senha válidos e o sistema deve estar disponível para acesso.
+
+### Pós-condições
+
+- Caso o processo seja realizado com sucesso, o usuário será autenticado, uma sessão será criada e o sistema redirecionará o usuário para a página inicial. Em caso de falha, o acesso ao sistema não será permitido e uma mensagem de erro será apresentada ao usuário.
+
+### Fluxo de Eventos Normal
+
+- O caso de uso inicia quando o usuário acessa a tela de login do sistema.
+- Em seguida, o sistema exibe o formulário de autenticação contendo os campos de usuário e senha.
+- O usuário informa suas credenciais e clica no botão “Entrar”.
+- O sistema valida os dados fornecidos e verifica se as credenciais são válidas.
+- Após a validação, o sistema autentica o usuário e redireciona para a página inicial do sistema.
+
+### Fluxos de Eventos Alternativos
+
+- Caso o usuário informe uma senha incorreta durante a validação das credenciais, o sistema exibirá uma mensagem informando que o usuário ou senha são inválidos e retornará para a tela de login para uma nova tentativa.
+- Outra possibilidade ocorre quando o usuário esquece sua senha.
+- Nesse caso, o usuário poderá selecionar a opção “Esqueci minha senha”.
+- O sistema solicitará o e-mail cadastrado e, após o preenchimento, enviará instruções para recuperação da senha.
+
+### Fluxos de Exceção
+
+- Se ocorrer indisponibilidade do sistema durante o processo de autenticação, o sistema exibirá uma mensagem informando que o serviço está temporariamente indisponível e o processo de login será cancelado.
+- Outra situação de exceção ocorre quando o usuário tenta realizar login sem preencher os campos obrigatórios.
+- Nesse caso, o sistema exibirá mensagens solicitando o preenchimento correto das informações e permanecerá na tela de login aguardando a correção dos dados.
+
 # Referências
 
 - https://moodle.unesp.br/pluginfile.php/25934/mod_resource/content/1/diagrama_casos_uso.pdf
