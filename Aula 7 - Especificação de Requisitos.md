@@ -333,17 +333,17 @@
 
 ## Descrição de Casos de uso
 
-**- Nome:** nome do caso de uso;
-**- Escopo:** diz respeito ao que está sendo documentado pelo caso de uso.
-**- Descrição do Propósito:** uma descrição sucinta do caso de uso, na forma de um único parágrafo, procurando descrever o objetivo do caso de uso.
-**- Ator Primário:** nome do ator primário, ou seja, o interessado que tem um objetivo em relação ao sistema, o qual pode ser atingido pela execução do caso de uso.
-**- Interessados e Interesses:** um interessado é alguém ou algo (um outro sistema) que tem um interesse no comportamento do caso de uso sendo descrito.
-**- Pré-condições:** o que deve ser verdadeiro antes da execução do caso de uso.
-**- Pós-condições:** o que deve ser verdadeiro após a execução do caso de uso, considerando que o fluxo de eventos normal é realizado com sucesso.
-**- Fluxo de Eventos Alternativos:** descreve formas alternativas de realizar certos passos do caso de uso.
-**-- Fluxos variantes**, que são considerados dentro da normalidade do caso de uso; 
-**-- Fluxos de exceção**, que se referem ao tratamento de erros durante a execução de um passo do fluxo normal (ou de um fluxo variante ou até mesmo de um outro fluxo de exceção).
-**-- Fluxo de Eventos Normal:** descreve os passos do caso de uso realizados em situações normais, considerando que nada acontece de errado e levando em conta a maneira mais comum do caso de uso ser realizado.
+- **Nome:** nome do caso de uso;
+- **Escopo:** diz respeito ao que está sendo documentado pelo caso de uso.
+- **Descrição do Propósito:** uma descrição sucinta do caso de uso, na forma de um único parágrafo, procurando descrever o objetivo do caso de uso.
+- **Ator Primário:** nome do ator primário, ou seja, o interessado que tem um objetivo em relação ao sistema, o qual pode ser atingido pela execução do caso de uso.
+- **Interessados e Interesses:** um interessado é alguém ou algo (um outro sistema) que tem um interesse no comportamento do caso de uso sendo descrito.
+- **Pré-condições:** o que deve ser verdadeiro antes da execução do caso de uso.
+- **Pós-condições:** o que deve ser verdadeiro após a execução do caso de uso, considerando que o fluxo de eventos normal é realizado com sucesso.
+- **Fluxo de Eventos Alternativos:** descreve formas alternativas de realizar certos passos do caso de uso.
+ - **Fluxos variantes**, que são considerados dentro da normalidade do caso de uso;
+ - **Fluxos de exceção**, que se referem ao tratamento de erros durante a execução de um passo do fluxo normal (ou de um fluxo variante ou até mesmo de um outro fluxo de exceção).
+ - **Fluxo de Eventos Normal:** descreve os passos do caso de uso realizados em situações normais, considerando que nada acontece de errado e levando em conta a maneira mais comum do caso de uso ser realizado.
 
 ## Descriçã de Casos de uso
 
