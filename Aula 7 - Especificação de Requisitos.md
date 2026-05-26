@@ -311,6 +311,49 @@
 
 ---
 
+## Descrição de Casos de uso
+
+- Um caso de uso descreve o que um sistema deve fazer. 
+- O diagrama de casos de uso provê uma visão apenas parcial disso, uma vez que mostra as funcionalidades por perspectiva externa.
+- Já a descrição de casos de uso captura uma visão interna de cada caso de uso, especificando o comportamento do caso de uso pela descrição do fluxo de eventos que ocorre internamente (passos do caso de uso).
+- Assim, uma parte fundamental do modelo de casos de uso é a descrição dos casos de uso.
+
+---
+
+## Descrição de Casos de uso
+
+- Deve-se especificar o comportamento de um caso de uso pela descrição textual de seu fluxo de eventos, de modo que outros interessados possam compreendê-lo.
+- Cada passo do fluxo de eventos de um caso de uso tipicamente descreve uma das seguintes situações:
+-- (i) uma interação entre um ator e o sistema,
+-- (ii) uma ação que o sistema realiza para atingir o objetivo do ator primário ou
+-- (iii) uma ação que o sistema realiza para proteger os interesses de um interessado.
+- Essas ações podem incluir validações e mudanças do estado interno do sistema
+
+---
+
+## Descrição de Casos de uso
+
+**- Nome:** nome do caso de uso;
+**- Escopo:** diz respeito ao que está sendo documentado pelo caso de uso.
+**- Descrição do Propósito:** uma descrição sucinta do caso de uso, na forma de um único parágrafo, procurando descrever o objetivo do caso de uso.
+**- Ator Primário:** nome do ator primário, ou seja, o interessado que tem um objetivo em relação ao sistema, o qual pode ser atingido pela execução do caso de uso.
+**- Interessados e Interesses:** um interessado é alguém ou algo (um outro sistema) que tem um interesse no comportamento do caso de uso sendo descrito.
+**- Pré-condições:** o que deve ser verdadeiro antes da execução do caso de uso.
+**- Pós-condições:** o que deve ser verdadeiro após a execução do caso de uso, considerando que o fluxo de eventos normal é realizado com sucesso.
+**- Fluxo de Eventos Alternativos:** descreve formas alternativas de realizar certos passos do caso de uso.
+**-- Fluxos variantes**, que são considerados dentro da normalidade do caso de uso; 
+**-- Fluxos de exceção**, que se referem ao tratamento de erros durante a execução de um passo do fluxo normal (ou de um fluxo variante ou até mesmo de um outro fluxo de exceção).
+**-- Fluxo de Eventos Normal:** descreve os passos do caso de uso realizados em situações normais, considerando que nada acontece de errado e levando em conta a maneira mais comum do caso de uso ser realizado.
+
+## Descriçã de Casos de uso
+
+- A maioria das exceções ocorre nos passos em que alguma informação é passada dos atores para o sistema, pois, quando uma informação é passada para o sistema, muitas vezes ele realiza **validações**.
+- Quando uma dessas validações falha, tipicamente ocorre uma exceção.
+- Cada exceção deve ser tratada por um fluxo alternativo de exceção.
+- Fluxos alternativos de exceção devem ser descritos contendo as seguintes informações:
+- um identificador, uma descrição sucinta da exceção que ocorreu, os passos para tratar a exceção (ações corretivas) e uma indicação de como o caso de uso retorna ao fluxo principal (se for o caso) após a execução das ações corretivas.
+
+
 ## Descrição de Casos de Uso
 
 ### Nome do Caso de Uso
@@ -319,7 +362,7 @@
 
 ### Escopo
 
-- Sistema Web Acadêmico.
+- Sistema Acadêmico.
 
 ### Descrição do Propósito
 
@@ -335,28 +378,28 @@
 
 ### Pós-condições
 
-- Caso o processo seja realizado com sucesso, o usuário será autenticado, uma sessão será criada e o sistema redirecionará o usuário para a página inicial. Em caso de falha, o acesso ao sistema não será permitido e uma mensagem de erro será apresentada ao usuário.
+- Caso o processo seja realizado com sucesso, o usuário será autenticado, uma sessão será criada e o sistema redirecionará o usuário para a página inicial.
+- Em caso de falha, o acesso ao sistema não será permitido e uma mensagem de erro será apresentada ao usuário.
 
 ### Fluxo de Eventos Normal
 
-- O caso de uso inicia quando o usuário acessa a tela de login do sistema.
-- Em seguida, o sistema exibe o formulário de autenticação contendo os campos de usuário e senha.
-- O usuário informa suas credenciais e clica no botão “Entrar”.
-- O sistema valida os dados fornecidos e verifica se as credenciais são válidas.
-- Após a validação, o sistema autentica o usuário e redireciona para a página inicial do sistema.
+1. O usuário acessa a tela de login do sistema.
+2. Em seguida, o sistema exibe o formulário de autenticação contendo os campos de **usuário** e **senha**.
+3. O usuário informa suas credenciais e clica no botão “Entrar”.
+4. O sistema valida os dados fornecidos e verifica se as credenciais são válidas.
+5. Após a validação, o sistema autentica o usuário e redireciona para a página inicial do sistema.
 
 ### Fluxos de Eventos Alternativos
 
-- Caso o usuário informe uma senha incorreta durante a validação das credenciais, o sistema exibirá uma mensagem informando que o usuário ou senha são inválidos e retornará para a tela de login para uma nova tentativa.
-- Outra possibilidade ocorre quando o usuário esquece sua senha.
-- Nesse caso, o usuário poderá selecionar a opção “Esqueci minha senha”.
-- O sistema solicitará o e-mail cadastrado e, após o preenchimento, enviará instruções para recuperação da senha.
+1. Caso o usuário informe uma senha incorreta durante a validação das credenciais, o sistema exibirá uma mensagem informando que o usuário ou senha são inválidos e retornará para a tela de login para uma nova tentativa.
+2. Quando o usuário esquece sua senha, poderá selecionar a opção “Esqueci minha senha”.
+3. O sistema solicitará o e-mail cadastrado e, após o preenchimento, enviará instruções para recuperação da senha.
 
 ### Fluxos de Exceção
 
-- Se ocorrer indisponibilidade do sistema durante o processo de autenticação, o sistema exibirá uma mensagem informando que o serviço está temporariamente indisponível e o processo de login será cancelado.
-- Outra situação de exceção ocorre quando o usuário tenta realizar login sem preencher os campos obrigatórios.
-- Nesse caso, o sistema exibirá mensagens solicitando o preenchimento correto das informações e permanecerá na tela de login aguardando a correção dos dados.
+1. Se ocorrer indisponibilidade do sistema durante o processo de autenticação, o sistema exibirá uma mensagem informando que o serviço está temporariamente indisponível e o processo de login será cancelado.
+2. Outra situação de exceção ocorre quando o usuário tenta realizar login sem preencher os campos obrigatórios.
+ Nesse caso, o sistema exibirá mensagens solicitando o preenchimento correto das informações e permanecerá na tela de login aguardando a correção dos dados.
 
 # Referências
 
