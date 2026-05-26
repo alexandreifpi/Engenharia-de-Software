@@ -398,8 +398,7 @@
 ### Fluxos de Exceção
 
 1. Se ocorrer indisponibilidade do sistema durante o processo de autenticação, o sistema exibirá uma mensagem informando que o serviço está temporariamente indisponível e o processo de login será cancelado.
-2. Outra situação de exceção ocorre quando o usuário tenta realizar login sem preencher os campos obrigatórios.
- Nesse caso, o sistema exibirá mensagens solicitando o preenchimento correto das informações e permanecerá na tela de login aguardando a correção dos dados.
+2. Se o usuário tenta realizar login sem preencher os campos obrigatórios, o sistema exibirá mensagens solicitando o preenchimento correto das informações e permanecerá na tela de login aguardando a correção dos dados.
 
 # Referências
 
