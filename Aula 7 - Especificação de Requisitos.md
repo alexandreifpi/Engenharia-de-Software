@@ -400,6 +400,99 @@
 1. Se ocorrer indisponibilidade do sistema durante o processo de autenticação, o sistema exibirá uma mensagem informando que o serviço está temporariamente indisponível e o processo de login será cancelado.
 2. Se o usuário tenta realizar login sem preencher os campos obrigatórios, o sistema exibirá mensagens solicitando o preenchimento correto das informações e permanecerá na tela de login aguardando a correção dos dados.
 
+# Caso de Uso - Realizar Venda
+
+## Nome do Caso de Uso
+
+- Realizar Venda.
+
+## Escopo
+
+- Sistema de Controle de Vendas.
+
+## Descrição do Propósito
+
+- Este caso de uso tem como objetivo permitir que um atendente realize a venda de produtos para um cliente, registrando os itens vendidos, calculando os valores da compra e finalizando o pagamento.
+
+## Atores
+
+- Os atores envolvidos neste caso de uso são o Atendente, responsável por registrar a venda, o Cliente, responsável pela compra dos produtos, e o Sistema de Vendas, responsável pelo processamento das informações da venda.
+
+## Pré-condições
+- O atendente deve estar autenticado no sistema.
+- Os produtos devem estar cadastrados no sistema.
+- Os produtos devem possuir quantidade disponível em estoque.
+- O sistema deve estar operacional.
+
+## Pós-condições
+
+### Em caso de sucesso
+- A venda é registrada no sistema.
+- O estoque dos produtos vendidos é atualizado.
+- O pagamento é registrado.
+- O comprovante da venda é emitido.
+
+### Em caso de falha
+- A venda não é concluída.
+- O estoque permanece inalterado.
+- Nenhum registro financeiro é salvo.
+
+## Fluxo de Eventos Normal
+- O atendente acessa a funcionalidade de vendas.
+- O sistema exibe a tela de registro de venda.
+- O atendente informa os produtos desejados pelo cliente.
+- O sistema adiciona os produtos à venda.
+- O sistema calcula automaticamente o valor total da compra.
+- O atendente informa a forma de pagamento.
+- O sistema valida as informações da venda.
+- O sistema processa o pagamento.
+- O sistema registra a venda.
+- O sistema atualiza o estoque dos produtos vendidos.
+- O sistema emite o comprovante da compra.
+- O sistema exibe mensagem informando que a venda foi concluída com sucesso.
+
+## Fluxos de Eventos Alternativos
+
+### FA1 — Remoção de produto da venda
+- O atendente seleciona um produto já adicionado à venda.
+- O atendente solicita a remoção do item.
+- O sistema remove o produto da venda.
+- O sistema recalcula o valor total da compra.
+
+### FA2 — Pagamento parcelado
+- O cliente escolhe pagamento parcelado.
+- O atendente informa a quantidade de parcelas.
+- O sistema calcula o valor das parcelas.
+- O sistema apresenta os valores para confirmação.
+- O atendente confirma o parcelamento.
+- O fluxo principal retorna ao passo de processamento do pagamento.
+
+### FA3 — Aplicação de desconto
+- O atendente informa um cupom ou desconto promocional.
+- O sistema valida o desconto informado.
+- O sistema recalcula o valor total da compra.
+- O sistema exibe o novo valor atualizado.
+
+## Fluxos de Exceção
+### FE1 — Produto sem estoque
+- O atendente informa um produto indisponível.
+- O sistema verifica que não há estoque suficiente.
+- O sistema exibe mensagem informando indisponibilidade do produto.
+- O produto não é adicionado à venda.
+
+### FE2 — Pagamento não autorizado
+- O sistema tenta processar o pagamento.
+- O pagamento é recusado pela operadora financeira.
+- O sistema exibe mensagem informando falha no pagamento.
+- O atendente pode tentar novamente ou escolher outra forma de pagamento.
+
+### FE3 — Falha no sistema
+- Ocorre uma falha de comunicação durante o processamento da venda.
+- O sistema exibe mensagem de indisponibilidade temporária.
+- O processo de venda é cancelado.
+- O atendente deverá reiniciar a operação posteriormente.
+
+
 # Referências
 
 - https://moodle.unesp.br/pluginfile.php/25934/mod_resource/content/1/diagrama_casos_uso.pdf
