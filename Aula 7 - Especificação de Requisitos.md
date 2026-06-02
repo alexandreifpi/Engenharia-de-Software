@@ -492,6 +492,69 @@
 - O processo de venda é cancelado.
 - O atendente deverá reiniciar a operação posteriormente.
 
+# Prototipagem
+
+## O que é um protótipo?
+
+- Protótipo é uma versão inicial do sistema final que está disponível na fase inicial do processo de desenvolvimento.
+ - Quando o sistema final é hardware é comum o protótipo servir para testar o design do sistema.
+ - Se o sistema final for software a sua mais comum utilização é na elucidação e validação dos requisitos.
+- É um sistema de demonstração que se apresenta aos utilizadores e stakeholders, de forma a validar os requisitos conhecidos ou obtê-los quando os requisitos conhecidos são vagos ou indefinidos.
+- Pode ser usado como meio de comunicação entre os diversos membros da equipe de desenvolvimento ou mesmo como meio de nós mesmos testarmos as nossas ideias.
+- A prototipagem tem influência em duas atividades do processo de engenharia de requisitos:
+ - identificação e descoberta de requisitos e
+ - validação de requisitos.
+- **Um outro motivo:** geralmente os stakeholders não conseguem especificar o que pretendem, mas perante um sistema e após uma breve utilização, facilmente especificam o que não pretendem.
+
+## Como devemos prototipar?
+
+- Os protótipos podem ser desenvolvidos usando tecnologias que se assemelham com as do sistema final, ou que nada se assemelham;
+- Podem utilizar:
+ - um conjunto de folhas de papel com as interfaces do sistema desenhadas;
+ - as interfaces do sistema elaboradas em alguma aplicação de efetuar apresentações;
+ - maquetes em 3 dimensões,
+ - um pedaço de software,
+ - um vídeo em que se simula uma tarefa.
+
+## Tipos de Prototipagem
+
+### Escopo
+
+**Protótipo horizontal:**
+- Visão ampla do sistema sem entrar em muitos detalhes.
+
+**Protótipo vertical:**
+- Visão detalhada de uma pequena parte das funcionalidades.
+
+### Fidelidade
+
+**Protótipo de baixa fidelidade:**
+
+<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/ecbb8860-4c3e-45b7-a1d6-0590cf62873f" />
+
+- Esses protótipos não são semelhantes ao sistema final;
+- Na maioria das vezes, são feitos com auxílio do papel e lápis para esboçar as características iniciais da interface e o seu funcionamento;
+- São usados também como um auxílio na conversa entre o projetista e os usuários sobre as características desejáveis e as soluções mais adequadas.
+- Para quem não quer usar o papel mas precisa desenhar protótipos de Baixa-Fidelidade rapidamente, pode usar as seguintes ferramentas:
+ - Balsamiq;
+
+**Protótipo de média fidelidade:**
+
+<img width="1400" height="1058" alt="image" src="https://github.com/user-attachments/assets/14044af8-86c1-46dc-a9ef-462fac6af0bb" />
+
+- Esses protótipos são mais próximos do sistema final, se comparado com os de Baixa-Fidelidade. 
+- Geralmente, são feitos utilizando ferramentas computacionais, embora não precisem ser as mesmas ferramentas que serão utilizadas para desenvolver o sistema final. 
+- Permitem simular o comportamento de interação da interface e não requerem um mesmo conhecimento técnico necessário para implementar a interface final.
+- Há algumas ferramentas que podem ser utilizadas para desenvolver protótipos nesse nível de fidelidade, algumas delas são:
+ - Sketch;
+ - InVision;
+ - Figma;
+
+**Protótipo de alta fidelidade:**
+
+- Oferece uma interface semelhante à final, pois são utilizadas as mesmas matérias (software e hardware) que serão utilizadas no sistema.
+- São desenvolvidos diretamente em linguagem de programação, permitindo apresentar alguns recursos da interface com interação.  Já existe a implementação de algumas partes do sistema.
+- Alto grau de interatividade e de realismo, é possível ver e interagir com uma interface próxima à final. Custo maior no seu desenvolvimento e já é necessário um conhecimento técnico semelhante àquele para desenvolver o produto final.
 
 # Referências
 
